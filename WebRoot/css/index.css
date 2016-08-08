@@ -1,0 +1,410 @@
+@charset "utf-8";
+*{
+	font-family:"微软雅黑";
+	}
+@charset "utf-8";
+/* CSS Document */
+
+.header{
+	width:100%;
+	height:195px;
+	background-image:url(../img/home/down.jpg);
+	backgroung-size:cover;
+	opacity:0.9;	
+	}		
+.second{
+	width:100%;
+	height:195px;
+	float:left;
+	}		
+			
+	
+.left{
+	font-size:24px;
+	font-weight:bold;
+	font-family:微软雅黑;
+	width:40%;
+	height:190px;
+	padding:30px 0px;
+	float:left;
+	}	
+
+.right{
+	float:right;
+	width:48%;
+	height:190px;
+	
+	}	
+	
+#welcome{
+	width:auto;
+	height:60px;
+	diaplay:inline;
+	font-family:微软雅黑;
+    font-size:18px;
+	margin-top:20px;
+	margin-left:35px;	
+	}
+	
+#welcome img{
+	diaplay:inline;
+    width:30px; 
+    height:30px;
+	border-radius:18px;	 
+		}
+	
+#welcome img:hover{
+	-webkit-transform:scale(1.5,1.5);
+	-moz-transform:scale(1.5,1.5);
+	-o-transform:scale(1.5,1.5);
+	}  
+.typein{
+	width:660px;
+	height:180px;
+	float:left;
+	margin-top:-5px;	 
+	}		  
+	
+.campuses{
+	font-family:微软雅黑;
+	font-size:18px;
+	
+	}	
+
+.leaf{
+	float:left;
+	padding-top:40px;
+	padding-right:-40px;
+	display:inline;
+	}
+
+.a{
+	float:right;
+	 margin-right:20px;
+	 margin-top:-10px;
+	}
+
+.button{
+    float:left;
+	display:inline;
+	color:black;
+	font-family:微软雅黑;
+	font-weight:bold;
+	font-size:16px;
+	width:70px;
+	height:30px;
+    background-color:#FFC;
+	border:0;
+	border-radius:5px;
+    text-shadow:0px 0px 0px #000;
+	 }
+.select1{
+	 display:inline;
+	 border:0;
+     width:100px;
+     height:30px;
+	 font-size:13px;
+     font-family:微软雅黑;
+     float:left;
+	}
+.my{
+	width:90px;
+	right:-13px;	
+	}
+.my i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: -2px;
+    background: url(pictures/cion7.png) 0 -20px no-repeat;
+	}
+#divselect{
+	float:left;
+	width:90px;
+	height:30px;
+	overflow:hidden;
+	background:url(../img/home/homeslider-arrow-down.png) no-repeat right #FFF;
+	border:1px solid #000;
+	margin-left:40px;
+	}
+#divselect select{
+	background:transparent;
+	width:118px;
+	height:30px;
+	padding:3px;
+	font-size:16px;
+	border:1px solid #ddd;	
+	}
+#divselect select option{
+	height:30px;
+	line-height:24px;
+	text-indent:10px;
+	backgroud-color:#000;
+	color:#FFF;
+	}	
+#divselect select option :selected{
+	backgroud-color:#000;
+	}	
+#divselect select option :visited{
+	backgroud-color:#000;
+	}	
+#textarea{
+	display:inline;	
+    width:620px;
+	height:70px;   
+	float:left;	 
+	margin-left:90px;
+	margin-top:15px;		 
+   }
+
+#keyword{
+    border:1px solid #000;
+    font-family:微软雅黑; 
+	border-radius:4px; 
+	width:300px;
+	height:30px;  
+	font-size:18px;
+	float:left;
+  }
+	
+#fankuishuoming{
+	width: 700px;
+	height: 450px;
+	position: fixed;
+	top:50%;
+	left: 50%;
+	margin: -225px 0 0 -350px;
+	background-image:url(../img/home/xintie_back.png);
+     
+	z-index: 20;
+	visibility: hidden; 
+}	
+
+#fankuishuoming a{
+	color: gray;
+	display: inline-block;
+	margin: 10px 15px 0 525px;
+}
+
+#fankuishuoming a:hover{
+	top:2px;
+	left: 1px;
+	position: relative;
+}
+
+#fankuishuoming span{
+    color: rgb(111,125,255);
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+	color:#fee571;
+}
+
+
+/*---------------------------------------------------以上是header及部分全局属性----------------------------------------------*/
+	
+.down_left{
+	width:400px;
+	height:626px;
+	background-color:#9F9;
+	}
+.left_one{
+	width:150px;
+	height:150px;
+	background-color:#FFF;
+	border-style:solid;
+	}	
+.left_two{
+	width:150px;
+	height:150px;
+	background-color:#FFF;
+	border-style:solid;
+	float:right;
+	}
+.left_three{
+	width:150px;
+	height:150px;
+	background-color:#FFF;
+	border-style:solid;
+	float:left;
+	margin-right:300px;
+	}
+.left_fourth{
+	width:150px;
+	height:150px;
+	background-color:#FFF;
+	border-style:solid;
+	float:right;
+	}	
+.down{
+	height:625px;
+	width:auto;
+	background-color:#3F3;
+	}
+.middle{
+	position:realtive;
+	width:auto;
+	height:668px;
+	background-image:url(../img/home/main_back.jpg);
+	backgroung-size:cover;
+	color:#999;
+	padding:50px 30px;
+	font-size:16px;
+	font-weight:bold;
+	font-family:"Segoe Script";
+	}
+/*---------------------------------------------------------------click--------------------------------------------------------*/	
+.embed{
+	width:65%;
+	height:60%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	background-color:#000;
+	}
+.tabbed_content {
+	background-color: 7f822a;
+	width: 100%;
+	height:100%;
+	font-family:"微软雅黑";
+	
+}
+.tabs {
+	height: 62px;
+	position: relative;
+}
+.tabs .moving_bg {
+	padding: 15px;
+	background-color:#7f822a;
+	background-image:url(../img/home/arrow_down_green.gif);
+	position: absolute;
+	width: 125px;
+	z-index: 190;
+	left: 0;
+	padding-bottom: 29px;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+.tabs .tab_item {
+	display: block;
+	float: left;
+	padding: 15px;
+	width: 135px;
+	color: #ffffff;
+	text-align: center;
+	z-index: 200;
+	position: relative;
+	cursor: pointer;
+}
+.tabbed_content .slide_content {
+	overflow: hidden;
+	background-color: #000;
+	position: relative;
+	width: 600px;
+	/*border:#FFF 3px solid;
+	padding-top:20px;*/
+	margin-left:auto;
+	margin-right:auto;
+	bottom:18px;
+	font-family:"微软雅黑";
+}
+
+.tabslider {
+	width: 5000px;
+}
+.tabslider ul {
+	float: left;
+	width: 570px;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 40px;
+}
+.tabslider ul a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.tabslider ul a:hover {
+	color: #aaaaaa;
+}
+.tabslider ul li {
+	padding-bottom: 7px;
+}
+
+/*---------------------------------------------------------------click--------------------------------------------------------*/
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.select {
+  width:1353px;
+  margin: 45px auto;
+  margin-left:10px;
+
+}
+.select a {
+  width: 200px;
+  line-height: 180px;
+  display: block;
+  margin: 5px ;
+  text-align: center;
+  float: left;
+  opacity: 0.6;
+  font-family:微软雅黑 ;
+  font-size:20px;
+  color:#000;
+}
+.yellow { background: #fdd22a; }
+.blue { background: #009fe3; }
+.purple { background: #574696; }
+.orange { background: #ee7202; }
+.pink { background: #e61c67; }
+.green { background: #96c11f; }
+.zzsc{text-align:center;clear:both;font-size:4px;}
+.outer_pic{
+	border:1px solid #FC6;
+	width:100%;
+	height:40%;
+	margin-top:20px;
+	background-image:url(../img/home/kaoyan.jpg);
+	backgroung-size:cover;
+	}
+.footer{
+	width:1648px;
+	heigth:304px;
+	font-size:18px;
+	font-weight:bold;
+	font-family:"Segoe Script";
+	background-image:url(../img/home/down.jpg);
+	backgroung-size:cover;
+	/*padding:30px 30px;*/
+	padding-bottom:200px;
+	background-repeat:no-repeat;
+	 
+		}		
+.footer_left{
+	float:left;
+	width:600px;
+	height:114px;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center; 
+	padding-top:58px;
+	padding-left:15px;
+	//font-family:"方正静蕾简体";
+}
+.foot_left p{
+	font-family:"方正静蕾简体";
+}
+.footer_right{
+	float:left;
+	height:114px;
+	width:600px; 
+	padding-top:40px;
+	padding-left:190px;
+	}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>具体</title>
+<link href="../css/NewNote_reply.css" rel="stylesheet" type="text/css">
+<link href="../css/reply.css" rel="stylesheet" type="text/css">
+<script src="../javascript/jquery-1.4.min.js" type="text/javascript"></script>
+<script src="../javascript/jquery.js" type="text/javascript"></script>
+<script src="../javascript/jquery.form.js" type="text/javascript"></script>
+<script src="../javascript/ShowReply.js" type="text/javascript"></script>
+<script src="../javascript/jPages.min.js"></script>
+<script src="../javascript/judgeloginreply.js" type="text/javascript"></script>
+<script src="../javascript/searchjump.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<script src="../javascript/showdetail.js" type="text/javascript"></script>
+	<div class="header">
+		<!--<p>My Old Books</p>-->
+		<div class="user" id="toptop">
+			<img src="../img/user_picture.png" /> <a href="">登陆</a>
+		</div>
+		<div id="divselect_reply">
+			<script type="text/javascript" src="../javascript/searchjump.js"></script>
+			<select id="xialakuang" name="type">
+				<option id="choose" value="quanbu">全 &nbsp;部</option>
+				<option id="choose" value="kaoyan">考研用书</option>
+				<option id="choose" value="kecheng">课程用书</option>
+				<option id="choose" value="siliu">四六级</option>
+				<option id="choose" value="xiaoyu">小语种</option>
+				<option id="choose" value="kewai">课外读物</option>
+				<option id="choose" value="biji">笔记资料</option>
+
+			</select>
+		</div>
+		<div class="search">
+			<input type="text" name="search" class="text" id="keyword" />
+			<button type="button" class="button" id="searchsubmit">搜索</button>
+		</div>
+
+
+
+	</div>
+
+	<!---------------------------------------------------------以上是头部---------------------------------------------------------->
+
+	<div class="intrc_note" id="intrc_note_id">
+		<div class="middle" id="middle_id">
+			
+			<div class="Note_Reply">
+				<p>帖子标题:噢耶----------------------------------</p>
+				<button type="button" id="button_rep">回复</button>
+			</div>
+
+			<div id="fabuhuitie">
+				<span>发布回帖</span> <a href="" class="right">X</a>
+				<form id="replyform">
+					<!--<input type="text" value="标题 *" id="comment_title"  onfocus="if (value=='标题 *'){value=''}"  
+               onblur="if(value==''){value='标题 *'}"/ >-->
+					<textarea type="text" id="comment_add_content"></textarea>
+
+					<button type="button" id="comment_add_btn">提交</button>
+				</form>
+			</div>
+			<!-- 弹出层遮罩 -->
+			<div id="bg"></div>
+
+		</div>
+	</div>
+</body>
+</html>

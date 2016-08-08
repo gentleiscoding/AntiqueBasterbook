@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>分类</title>
+<link href="../css/MyNote.css" rel="stylesheet" type="text/css">
+<link href="../css/Reply.css" rel="stylesheet" type="text/css">
+<script src="../javascript/jquery-1.4.min.js" type="text/javascript"></script>
+<script src="../javascript/jquery.js" type="text/javascript"></script>
+<script src="../javascript/jquery.form.js" type="text/javascript"></script>
+<script src="../javascript/showNote.js" type="text/javascript"></script>
+<script src="../javascript/postingajax.js" type="text/javascript"></script>
+<!--<script src="../javascript/Reply.js" type="text/javascript"></script>-->
+<script src="../javascript/jPages.min.js"></script>
+<script src="../javascript/Circle.js"></script>
+<script src="../javascript/Circle_short.js"></script>
+<script src="../javascript/mobilyblocks.js"></script>
+<script src="../javascript/judgeloginmypost.js" type="text/javascript"></script>
+<script src="../javascript/searchjump.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div id="main">
+		<div class="main_upper">
+			<div class="main_upper_left"></div>
+		</div>
+		<div id="toptop_mypost">
+			<div id="main_navlink">
+				<div id="toptop">
+					<a href="../html/posthome.html" target="_blank"><span>全部书帖</span></a>
+					<a href="../html/mypost.html" target="_blank"><span>主页</span></a> <a
+						href="../html/Register.html" target="_blank"><span>登陆 </span>
+					</a> <a href="../html/Login.html" target="_blank"><span>注册 </span>
+					</a>
+					<!--<span>&nbsp;&nbsp;&nbsp;分类</span>-->
+				</div>
+				<div id="divselect">
+					<select name="type" id="xialakuang">
+						<option value="quanbu">&nbsp;&nbsp;全部</option>
+						<option value="kaoyan">考研用书</option>
+						<option value="kecheng">课程用书</option>
+						<option value="siliu">四六级</option>
+						<option value="xiaoyu">小语种</option>
+						<option value="kewai">课外读物</option>
+						<option value="biji">笔记资料</option>
+					</select>
+				</div>
+				<input type="text" value=""
+					style="width:250px; height:30px; margin-left:870px;margin-top:-60px;float:left;  "
+					id="keyword" /> <input id="searchsubmit" type="button"
+					value="搜索" />
+			</div>
+			<script src="../javascript/showsort.js" type="text/javascript"></script>
+		</div>
+		<div class="whole_back">
+			<div class="main_Show" id="main_Show"></div>
+		</div>
+
+		<!------------------------------------发帖弹窗 ------------------------------------------------->
+
+		<div id="fabuxintie">
+			<span>发布新帖</span> <a href="" class="right">X</a>
+			<form id="postingform">
+				<input type="text" value="标题 *" id="comment_title"
+					onfocus="if (value=='标题 *'){value=''}"
+					onblur="if(value==''){value='标题 *'}" name="subject" /> <input
+					type="text" value="书名 *" id="comment_book"
+					onfocus="if (value=='书名 *'){value=''}"
+					onblur="if(value==''){value='书名 *'}" name="bookname" /> <input
+					type="text" value="出版社 *" id="comment_publisher"
+					onfocus="if (value=='出版社 *'){value=''}"
+					onblur="if(value==''){value='出版社 *'}" name="publishinghouse" /> <select
+					id="downdrop">
+					<option id="choose">标签分类</option>
+				</select> <select id="downdrop">
+					<option id="choose">标签分类</option>
+				</select> <input type="radio" checked="checked" value="" class="check">
+				买书 </input> <input type="radio" checked="checked" value="" class="check">
+				卖书 </input> <input type="radio" checked="checked" value="" class="check">
+				借入书 </input> <input type="radio" checked="checked" value=" " class="check">
+				借出书 </input>
+				<textarea type="text" id="comment_add_content" name="content"></textarea>
+				<button type="button" id="comment_add_btn">提交</button>
+				<input type="hidden" name="state" value="doposting" />
+			</form>
+		</div>
+	</div>
+</body>
+</html>

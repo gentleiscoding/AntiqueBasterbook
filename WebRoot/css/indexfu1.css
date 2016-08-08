@@ -1,0 +1,44 @@
+
+/*-------------------------------------------index.css  头部   导航栏----------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.menu {
+  width: 900;
+  height: 65px;
+  padding-left:25px;
+ 
+}
+.menu ul {
+  width: 860px;
+  height: 40px;
+  padding-left:37px;
+  position: relative;
+  margin: 0 auto;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a {
+  display: block;
+  padding: 0 10px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight:bold;
+  color: #fff;
+}
+.menu .block {
+  width: 48px;
+  height: 2px;
+  background: #fff;
+ 
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: 99;
+}
+
+

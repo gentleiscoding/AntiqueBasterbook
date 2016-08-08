@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../css/index.css" />
+<link rel="stylesheet" type="text/css" href="../css/indexfu1.css">
+<link rel="stylesheet" type="text/css" href="../css/zhongbu.css" />
+<link rel="stylesheet" type="text/css" href="../css/dropdownlist.css">
+<script type="text/javascript" src="../javascript/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../javascript/dropdownlist.js"></script>
+<script type="text/javascript" src="../javascript/slipbar.js"></script>
+<script type="text/javascript" src="../javascript/index.js"></script>
+<script type="text/javascript" src="../javascript/jquery.light.js"></script>
+<script type="text/javascript" src="../javascript/jquery1.3.2.js"></script>
+<script type="text/javascript" src="../javascript/tabbedContent.js"></script>
+<script type="text/javascript" src="../javascript/js-light.js"></script>
+<script type="text/javascript" src="../javascript/searchjump.js"></script>
+<script type="text/javascript" src="../javascript/judgeloginhome.js"></script>
+<style type="text/css">
+a:link {
+	text-decoration: none;
+	color: blue
+}
+
+a:visited {
+	text-decoration: none;
+	color: green
+}
+</style>
+
+<title>阅享</title>
+<!--<script>
+	$(function() {
+		// 通过JSON数据创建自定义下拉框
+		var ddl_album = DropDownList.create({
+			container : $('#demo1'),
+			attrs : {
+				id : 'ddl_album', // 给dropdownlist一个id
+				column : 8, // 展示4行
+				width : 130, // 宽度为150px
+				height : 17
+			// 每个option选项的高度
+			},
+			options : [ [ '考研用书', 'kaoyan' ], [ '课程用书', 'kecheng' ], [ '四六级', 'siliu' ],
+					[ '小语种', 'xiaoyu' ], [ '课外读物', 'kewai' ],
+					[ '笔记资料', 'biji', true ],
+
+			]
+
+		});
+		/*	ddl_album.change(function(){
+		 alert(ddl_album.val());
+		 });*/
+
+	});
+</script>-->
+</head>
+<body style="overflow:Scroll;overflow-x:hidden">
+	<!--------------------------------------------------------------header----------------------------------------------------------->
+	<div class="header">
+		<div class="second">
+			<img src="../img/home/15.png"
+				style="width:650px;height:173px;padding-left:30px;padding-bottom:50px;">
+			<div class="right">
+
+				<div class="menu" id="welcome">
+					<div id="ahref" class="menu">
+						<script type="text/javascript"
+							src="../javascript/judgeloginhome.js"></script>
+						<ul id="toptop">
+							<img src="../img/home/25.png" id="leaf">
+							<li class="current"><a href="../html/login.html"
+								target="_blank">登录</a></li>
+							<li><a href="../html/signup.html" target="_blank">注册</a></li>
+							<li><a href="../html/fankuiliuyan.html" target="_blank"
+								id="fankui">反馈留言</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="typein">
+					<div id="textarea">
+						<div id="divselect">
+							<select id="xialakuang">
+								<option id="choose" style="background-color:#CCC; "
+									value="quanbu">全 &nbsp;部</option>
+								<option id="choose" style="background-color:#CCC;"
+									value="kaoyan">考研用书</option>
+								<option id="choose" style="background-color:#CCC;"
+									value="kecheng">课程用书</option>
+								<option id="choose" style="background-color:#CCC;" value="siliu">
+									四六级</option>
+								<option id="choose" style="background-color:#CCC;"
+									value="xiaoyu">小语种</option>
+								<option id="choose" style="background-color:#CCC;" value="kewai">
+									课外读物</option>
+								<option id="choose" style="background-color:#CCC;" value="biji">
+									笔记资料</option>
+
+							</select>
+						</div>
+						<input type="text" name="search" id="keyword" />
+						<button type="button" class="button" id="searchsubmit">搜索</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!------------------------------------------------------反馈说明弹窗结束 中上部幻灯片----------------------------------------------->
+
+
+
+	<div id="banner">
+		<div class="banner">
+
+			<ul>
+				<li><img src="../img/home/banner_1_books.jpg"></li>
+				<li><img src="../img/home/banner41.jpg"></li>
+				<li><img src="../img/home/banner-books.jpg"></li>
+			</ul>
+
+		</div>
+		<div class="bannNav">
+			<a href="../html/posthome.html" target="_blank" id="login">
+				<h1
+					style="font-weight:bold;font-size:18px;padding-left:12px;color:#FFF;"></h1>
+				<h2
+					style="font-weight:bold;font-size:14px;padding-top:10px;padding-left:20px;"></h2>
+				<img src="../img/home/posts.jpg">
+				<h3 class="time1"></h3>
+			</a> <a href="../html/mypost.html" target="_blank" id="register">
+				<h1
+					style="font-weight:bold;font-size:18px;padding-left:12px;color:#FFF;"></h1>
+				<h2
+					style="font-weight:bold;font-size:14px;padding-top:10px;padding-left:12px;"></h2>
+				<img src="../img/home/myposts.jpg">
+				<h3 class="time1"></h3>
+			</a> <a href="../html/Advice.html" target="_blank" id="instrction">
+				<h1
+					style="font-weight:bold;font-size:18px;padding-left:12px;color:#FFF;"></h1>
+				<h2 style="font-weight:bold;font-size:14px;padding-top:10px;"></h2>
+				<img src="../img/home/recommend.jpg">
+				<h3 class="time1"></h3>
+			</a>
+		</div>
+	</div>
+
+	<!---------------------------------------------------------鼠标放上 切换 中下部----------------------------------------------------------->
+
+	<div class="middle">
+		<div class="embed">
+			<div class="tabbed_content">
+				<div class="tabs">
+					<div class="moving_bg">&nbsp;</div>
+					<span class="tab_item"> 阅享 </span> <span class="tab_item">
+						创作团队 </span> <span class="tab_item"> 发帖交流</span> <span class="tab_item">
+						应用前景</span> <span class="tab_item"> 开发致谢 </span>
+				</div>
+				<div class="slide_content">
+					<div class="tabslider">
+						<ul>
+							<p style="padding:5px 5px;">
+								&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;阅享是一个网页交流平台，致力于融合互联网+书籍阅读的服务工作，在阅<br> <br>享这个平台上你可以分享自己的书籍。也许你时常因为旧书的堆积而感到烦恼，<br>
+								<br>并且为新书的产生向往却无处可得，阅享帮助你解决烦恼。<br> <br>&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;为了解决同学们书籍来源和处理的烦恼，我们建设了阅享这个互联网平<br> <br>台，主要群体面向在校学生，交易或者借阅书籍，为阅读生活带来便利。<br>
+								<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+								希望阅享能利用互联网这个大资源为您的生活带来更多的可能，祝您使用愉快。
+							</p>
+						</ul>
+						<ul>
+							<img style="height:300px;width:600px;"
+								src="../img/home/kaifatuandui.png">
+						</ul>
+						<ul>
+
+							<img style="height:300px;width:600px;"
+								src="../img/home/fatiejiaoliu.png">
+
+
+						</ul>
+						<ul>
+							<img style="height:300px;width:600px;"
+								src="../img/home/yingyongqianjing.png">
+						</ul>
+						<ul>
+							<img style="height:300px;width:600px;"
+								src="../img/home/ganxie.png">
+						</ul>
+					</div>
+					<br style="clear: both" />
+				</div>
+			</div>
+			<!----------------------------------------------------------——-六个色块 --------------------------------------------------------->
+		</div>
+		<div class="outer_pic">
+			<div class="select">
+				<a class="yellow" href="/BookSystem/html/sort.html?type=kaoyan">考研用书</a>
+				<a class="green" href="/BookSystem/html/sort.html?type=kecheng">课程用书</a>
+				<a class="pink" href="/BookSystem/html/sort.html?type=siliu">
+					四六级</a> <a class="purple" href="/BookSystem/html/sort.html?type=xiaoyu">小语种</a>
+				<a class="blue" href="/BookSystem/html/sort.html?type=kewai">课外读物</a>
+				<a class="orange" href="/BookSystem/html/sort.html?type=biji">笔记资料</a>
+			</div>
+		</div>
+		<script src="../javascript/js-light.js"></script>
+		<div class="zzsc"></div>
+	</div>
+	<script src="../javascript/zhongbu.js"></script>
+	<script src="../javascript/zhongbu2.js"></script>
+	<!------------------------------------------------------------中上部结束 页脚开始--------------------------------------------------------------->
+	<div class="footer">
+		<div class="footer_left" style="font-family:'Bradley Hand ITC';">
+			<p>Knowledge is treasure</p>
+			<p>But practice is key to it</p>
+			<p>&nbsp;&nbsp;A good book is the best,the same today and
+				forever.</p>
+		</div>
+		<div class="footer_right">
+			<img style="width:350px;height:130px;"
+				src="../img/home/englishlogo.png">
+		</div>
+	</div>
+</body>
+</html>

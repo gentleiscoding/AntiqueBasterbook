@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="../javascript/jquery-1.4.min.js" type="text/javascript"></script>
+<script src="../javascript/jquery.js" type="text/javascript"></script>
+<script src="../javascript/jquery.form.js" type="text/javascript"></script>
+<script src="../javascript/advice.js" type="text/javascript"></script>
+<title>反馈说明</title>
+<style>
+* {
+	font-family: "微软雅黑";
+}
+
+#outer {
+	background-image: url(../img/fankuiliuyan/fankui.jpg);
+	background-size: cover;
+	width: auto;
+	height: 650px;
+	margin-top: -5px;
+}
+
+#inside {
+	width: auto;
+	height: 80%;
+	margin: auto auto;
+	background-image: url(../img/fankuiliuyan/fankui_fore.png);
+	background-size: cover;
+	/*border:1px solid #000;*/
+}
+
+#fankui_comment {
+	width: 650px;
+	height: 230px;
+	margin-top: 165px;
+	margin-left: 360px;
+}
+
+#span_comment {
+	position: relative;
+	top: 160px;
+	left: 270px;
+	width: 16px;
+	height: 50px;
+}
+
+#span_say {
+	position: relative;
+	top: 130px;
+	left: 355px;
+	width: 16px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#btn_comment {
+	margin: auto auto;
+	width: 75px;
+	height: 37px;
+	position: relative;
+	right: 340px;
+	top: 50px;
+	background-color: #e8bb57;
+	border: 2px solid #FFC;
+	margin-left: -30px;
+	font-size: 16px;
+}
+</style>
+</head>
+<div id="outer">
+	<span id="span_say">反馈回复</span> <span id="span_comment">您的意见与建议，是我们取得进步的动力。</span>
+	<div id="inside">
+		<form id="adviceform">
+			<textarea type="text" id="fankui_comment" name="advice"></textarea>
+			<button type=button id="btn_comment">提交</button>
+			<input type="hidden" name="state" value="advice" />
+		</form>
+	</div>
+</div>
+<body>
+</body>
+</html>

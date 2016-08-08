@@ -1,0 +1,370 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	text_decoration:none;
+	font-family:"微软雅黑";
+	}
+
+.header{
+	background-color:#c1e2cb;
+	width:auto;
+	height:150px;
+	margin-top:-15px; 
+	font-family:"Segoe Script";
+	font-size:18px;
+	}
+#button_one{
+	float:right;
+	background-color:9a7fc4;
+	color:#FFF;
+	font-family:"微软雅黑";
+	font-size:14px;
+	border:0;
+	border-radius:5px;
+	margin-left:18px;
+	margin-top:-79px;
+	width:50px;
+	height:29px;
+	
+	}	
+.user{
+	margin-left:1060px;
+	padding-top:10px;
+	}
+
+.testtitle{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-30px;
+	text-align:center;
+	font-family:"Segoe Script";
+	font-size:26px;
+	 	}	
+.text{
+	width:460px;
+	height:13px;
+	padding:9px 10px;
+	font-family:"微软雅黑";
+	font-size:14px;
+	border:0;
+    margin-left:470px;
+	margin-bottom:70px;
+	}		  
+.button{
+	font-family:"微软雅黑";
+	font-size:14px;
+	background-color:#299980;
+	border:0;
+	border-radius:5px;
+	width:50px;
+	height:29px;
+    
+    color:#FFF;
+	
+	}
+#divselect_reply {
+	float: left;
+	width: 90px;
+	height: 27px;
+	overflow: hidden;
+	background: url(../img/reply/homeslider-arrow-down.png) no-repeat
+		right #fff;
+	border: 2px solid #fff;
+	margin-left: 380px;
+	margin-bottom: -40px;
+     
+}
+
+#divselect_reply select {
+	background: transparent;
+	width: 118px;
+	height: 30px;
+	padding: 3px;
+	font-size: 16px;
+	border: 1px solid #fff;
+}
+
+#divselect_reply select option {
+	height: 30px;
+	line-height: 24px;
+	text-indent: 10px;
+	backgroud-color: #ccc;
+	color: #000;
+}
+
+#divselect_reply select option :selected {
+	backgroud-color: #999;
+}
+
+#divselect_reply select option :visited {
+	backgroud-color: #999;
+}
+	
+.intrc_note{
+	margin-top:-16px;
+	background-image:url(../img/reply/background.jpg);
+	background-size:cover;
+	height:auto;
+	font-family:"微软雅黑";
+	}		
+.middle{
+	width:80%;
+	height:90%;
+	background-image:url(../img/reply/background_front.png) ;
+	backgroun-size:cover;
+	background-position:50% 26%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	}		
+.Note_Reply{
+	padding-top:30px;
+	padding-left:70px;
+   
+	}	
+
+#button_rep{
+	width:45px;
+	height:45px;
+   /* background-image:url(../img/261.png);*/
+	border-image-width:45px;
+
+	font-family:"微软雅黑";
+	font-size:14px;
+	float:right;
+	/*margin-top:-50px;*/
+	margin-right:43px;
+	border:2px solid #f1ed0;
+	/*border:2px solid #f1e6d0;*/
+	border-radius:15px;
+	color:#000;
+	position:fixed;
+	top:530px;
+	right:60px;
+	background-color:#c1e2cb;
+	}	
+/*.button_rep img{
+	 width:45px;
+	 height:45px;
+	 border-radius:15px;
+	 padding-left:-5px;
+	}*/	
+.Reply_one{
+	width:846px;
+	height:200px;
+	border-bottom:2px solid #e2ca9b;
+	margin-left:34px;
+	margin-top:80px;
+	font-family:"微软雅黑";
+	}
+.Reply_one_left{
+	float:left;
+	width:100px;
+	height:180px;
+	border:1px solid #e2ca9b;
+	margin-top:15px;
+	margin-left:35px;
+	background-color:#fddd8f;
+	
+	}		
+.Reply_one_left pre{
+	text-align:center;
+	
+}	
+.Reply_one_right{
+	float:left;
+	width:600px;
+	height:180px;
+	border:1px solid #e2ca9b;
+	margin-top:15px;
+	margin-left:45px;
+	 
+	}	
+.Reply_two{
+	font-family:"微软雅黑";
+	width:846px;
+	height:200px;
+	border-bottom:2px solid #e2ca9b;
+	margin-left:34px;
+	margin-top:50px;
+	}	
+.Reply_two_left{
+	float:left;
+	width:100px;
+	height:180px;
+	border:1px solid #e2ca9b;
+	margin-top:15px;
+	margin-left:35px;
+	background-color:#fddd8f;
+	}
+.Reply_two_right{
+	float:left;
+	width:600px;
+	height:180px;
+	border:1px solid #e2ca9b;
+	margin-top:10px;
+	margin-left:45px;
+	}	
+.Reply_two_left pre{
+	text-align:center;
+	
+}					
+		
+#theme_holder_reply{
+    clear:both;
+	/*border:3px solid #666;*/
+	cursor:pointer;
+	position:relative;
+	bottom:20px;
+	}
+#theme_holder_reply select{
+	font-family:"微软雅黑";
+	color:#000;
+	font-size:14px;
+	border:0;
+	width:80px;
+	height:30px;
+	border-radius:5px;
+    margin-left:43%;
+	display: inline;
+	
+	}	
+#theme_holder_reply input{
+	font-family:"微软雅黑";
+	color:#000;
+	font-size:14px;
+	background-color:#c1e2cb;
+	border:0;
+	border-radius:5px;
+	/*padding-left:30px;
+	padding-right:30px;*/
+	width:80px;
+	height:30px;
+	border:2px solid #f1e6d0;
+	display: inline;
+	
+	}			
+	
+#fabuhuitie{
+	width: 700px;
+	height: 450px;
+	position: fixed;
+	top:45%;
+	left: 50%;
+	margin: -225px 0 0 -350px;
+	background-image:url(../img/reply/kanxinqing.jpg);
+     
+	z-index: 20;
+	visibility: hidden; 
+}	
+
+#fabuhuitie a{
+	color: gray;
+	display: inline-block;
+	margin: 10px 15px 0 525px;
+}
+
+#fabuhuitie a:hover{
+	top:2px;
+	left: 1px;
+	position: relative;
+}
+
+#fabuhuitie span{
+    color: rgb(111,125,255);
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+	color:#b37e16;
+}
+
+#fabuhuitie input{
+    display: block;
+    width: 630px;
+    height: 32px;
+/*    box-shadow:2px 2px 5px #ccc;*/
+    margin: 15px auto;
+    /*color: rgb(134,134,134);*/
+	
+    font-size: 18px;
+    font-family: "微软雅黑";
+    padding: 0 10px;
+}
+
+#fabuhuitie textarea{
+    display: block;
+    margin-top:50px;
+	margin-left:40px;
+    width: 605px;
+    height: 200px;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    padding: 10px;
+	border:2px solid  #FF6;
+}
+
+#fabuhuitie button{
+    width: 120px;
+	height: 35px;
+	display: block;
+	background-color:#f7a052;
+	color: #b37e16;
+	border: none;
+	font-size: 18px;
+	font-weight:bold;
+	cursor:pointer;
+    margin: 0 auto;
+    margin-top: 20px;
+	font-family:"微软雅黑";
+} 
+.title {
+	width:703px;
+	height:144px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:transparent url(../img/title.png) no-repeat top left;
+}
+a.back {
+	background:transparent url(../img/back.png) no-repeat top left;
+	position:fixed;
+	width:150px;
+	height:27px;
+	outline:none;
+	bottom:0px;
+	left:0px;
+}
+#loginhref{
+	text-decoration:none;
+	padding-top:-10px;
+	float:right;
+	margin-right:140px;
+	margin-top:14px;
+	color:#FFF;
+	}	
+	#signuphref{
+	text-decoration:none;
+	float:right;
+	margin-right:70px;
+	margin-top:-56px;
+	color:#FFF;
+	}	
+	#hi{
+	text-decoration:none;
+	padding-top:-10px;
+	float:right;
+	margin-right:120px;
+	margin-top:-50px;
+	color:#FFF;
+	}	
+	#loginouthref{
+	text-decoration:none;
+	float:right;
+	margin-right:55px;
+	margin-top:-50px;
+	color:#FFF;
+	}	
